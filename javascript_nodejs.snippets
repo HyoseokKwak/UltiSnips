@@ -8,3 +8,11 @@ snippet vr "var name = require (js)"
 var ${1:n} = require('$1.js');
 endsnippet
 
+snippet vfe "var name = require (js)"
+var ${1:n} = function(){
+	${0}
+}
+
+exports.$1 = $1;
+endsnippet
+
