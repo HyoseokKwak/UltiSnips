@@ -8,7 +8,14 @@ snippet vr "var name = require (js)"
 var ${1:n} = require('$1.js');
 endsnippet
 
-snippet vfe "var name = require (js)"
+snippet vf "var name = require (js)"
+var ${1:n} = function(){
+	${0}
+}
+endsnippet
+
+
+snippet vfe "var name = require... exports"
 var ${1:n} = function(){
 	${0}
 }
